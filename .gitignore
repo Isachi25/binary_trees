@@ -59,7 +59,6 @@ binary_tree_print.c
 113-bst_search
 114-main.c
 114-bst_rm
-115-O
 120-main.c
 120-is_avl
 121-main.c
