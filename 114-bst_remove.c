@@ -30,7 +30,7 @@ bst_t *bst_search(const bst_t *tree, int value)
 bst_t *swap(bst_t *node, bst_t *new)
 {
 	bst_t *temp = NULL;
-	_Bool left_child = false;
+	int left_child = false;
 
 	if (node->parent)
 		left_child = node->parent->left == node;
@@ -71,7 +71,7 @@ bst_t *swap(bst_t *node, bst_t *new)
 bst_t *bst_remove(bst_t *root, int value)
 {
 	bst_t *node, *temp;
-	_Bool left_child = false;
+	int left_child = false;
 
 	if (!root)
 		return (NULL);
